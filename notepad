@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="card-group">
+        <div class="card">
+            <img src="https://media2.giphy.com/media/xT1R9XIOLQzGsNRnbi/giphy.gif?cid=ecf05e47z2n167hzo13vc1ghh8dnt9arb45lf1ukra3d75xy&rid=giphy.gif&ct=g"  class="card-img-top" alt="">
+          
+          <div class="card-body">
+            <h5 class="card-title">Human</h5>
+            <p class="card-text">The Human 
+                body is made up of 5 elements- Earth,space, water,air, fire.</p>
+          </div>
+          
+        </div>
+        <div class="card text-white">
+            <img src="https://media0.giphy.com/media/3o7bucqI23uxTyptbG/giphy.gif?cid=ecf05e4762tcidnnjif0vu8gk2nqu58b571aylz5cnp2rimi&rid=giphy.gif&ct=g" class="card-img" alt="">
+        </div>
+        <div class="card">
+             <img src="https://media1.giphy.com/media/5aviy6ErUE0xy/giphy.gif?cid=ecf05e4757imsfoggwatsmz3m60h9cbd8rtm4lwy8kkf41i6&rid=giphy.gif&ct=g" class="card-img-top"alt="">
+          
+          <div class="card-body">
+            <h5 class="card-title">Being</h5>
+            <p class="card-text">unlike the physical appearance, the being part(consciousness)  is a tiny point of 
+                divine light. The being is the eternal energy ,the  consciousness within the body. </p>
+          </div>
+         
+        </div>
+      </div>
+
+       </div>
+    
