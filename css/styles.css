@@ -1,4 +1,10 @@
-@import url("https://fonts.googleapis.com/css2");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat',sans-serif ;
+}
 .headspace{
    
     background-color:#FFA441 ;
@@ -12,7 +18,7 @@ html body{
 	padding: 0;
 }
 .navbar{
-    font-family: ;
+ 
     padding-left: 5rem;
     padding-right: 5rem;
     padding-top: 2rem;
@@ -39,12 +45,20 @@ html body{
    width: auto;
 }
 .whoA{
-    display: flex;
-    justify-content: center;
+    display: block;
     padding: 5rem;
     color: #FBF5EC;
- 
+    background-color: #FFA441;
+    font-size: 14vw;
     
+}
+.boy{
+    color: white;
+    font-size: bold;
+}
+.whoA1{
+  display: flex;
+  justify-content: center;
 }
 
 #whoAmI{
@@ -133,6 +147,36 @@ html body{
     background-position: center center;
     background-size: cover;
   }
-  
+  .card1{
+    height: 350px;
+    width: 400px;
+    min-width: 250px;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: #FFA441;
+    box-shadow: -1rem 0 3rem #FBF5EC;
+    display: flex;
+    flex-direction: row;
+    transition: .2s;
+    margin: 0;
+    scroll-snap-align: start;
+    clear: both;
+    position: relative;
+}
+.card1:focus-within~.card1, .card1:hover~.card1 {
+    transform: translateX(130px);
+}
 
+.card1:hover {
+    transform: translateY(-1rem);
+}
 
+.card1:not(:first-child) {
+    margin-left: -130px;
+}
+
+#thoughtProcess{
+    padding: 2rem;
+    color: white;
+    background-color: #9B75C1;
+}
